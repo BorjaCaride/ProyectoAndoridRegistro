@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fondolista"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="6dp"
+        android:src="@mipmap/horario"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Nombre"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblFilaNombreHorario"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="asdf"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/HoraEntrada"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblFilaHEntrada"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="asdf"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=":"/>
+            <TextView
+                android:id="@+id/lblFilaMEntrada"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="asdf"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/HoraSalida"/>
+
+            <TextView
+                android:id="@+id/lblFilaHSalida"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="asdf"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text=":"/>
+
+            <TextView
+                android:id="@+id/lblFilaMSalida"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="asdf"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Lunes"/>
+
+            <TextView
+                android:id="@+id/lblFilaLunes"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"
+                android:text="@string/Martes"/>
+
+            <TextView
+                android:id="@+id/lblFilaMartes"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Miercoles"/>
+
+            <TextView
+                android:id="@+id/lblFilaMiercoles"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Jueves"/>
+
+            <TextView
+                android:id="@+id/lblFilaJueves"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Viernes"/>
+
+            <TextView
+                android:id="@+id/lblFilaViernes"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Sabado"/>
+
+            <TextView
+                android:id="@+id/lblFilaSabado"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="@string/Domingo"/>
+
+            <TextView
+                android:id="@+id/lblFilaDomingo"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="s"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/verPedido"
+        android:title="@string/visualizar"
+        />
+    <item
+        android:id="@+id/prepararPedido"
+        android:title="@string/preparar" />
+    <item
+        android:id="@+id/PedidoListo"
+        android:title="@string/listo" />
+
+    <item
+        android:id="@+id/PedidoEntregado"
+        android:title="@string/entregado" />
+
+</menu>

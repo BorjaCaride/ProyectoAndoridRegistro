@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    android:gravity="center"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".activity_opciones">
+        <Button
+            android:id="@+id/btnServicio"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/estilo_boton"
+            android:layout_marginBottom="20dp"
+            android:text="@string/servicio" />
+
+        <Button
+            android:id="@+id/btnPedido"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/estilo_boton"
+            android:text="@string/Pedidos" />
+
+
+
+        <Button
+            android:id="@+id/btnAdministracion"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/estilo_boton"
+            android:text="@string/Administracion" />
+
+
+
+
+</LinearLayout>

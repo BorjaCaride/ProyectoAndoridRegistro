@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">RegistroCovid</string>
+    <!-- Strings related to login -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesion o Registrarse</string>
+    <string name="action_sign_in_short">Iniciar Sesion</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Nombre de usuario no valido</string>
+    <string name="invalid_password">La contraseña tiene que tener más de 5 caracteres</string>
+    <string name="login_failed">"Error Inicio de sesion"</string>
+    <string name="servicio">Servicios</string>
+    <string name="mesas">Mesas</string>
+    <string name="IncioServicio">Inicio de Servicio</string>
+    <string name="TomarNota">Tomar Nota</string>
+    <string name="FinServicio">Fin Servicio</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Telefono">Teléfono</string>
+    <string name="Telefono1">Teléfono 1</string>
+    <string name="Telefono2">Teléfono 2</string>
+    <string name="Telefono3">Teléfono 3</string>
+    <string name="NPersonas">Nª personas</string>
+    <string name="Registro">Registros</string>
+    <string name="Visualizacion">Visualización</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="Administracion">Administracion</string>
+    <string name="Datos">Datos del Cliente</string>
+    <string name="AgregarEmpleado">Agregar un empleado</string>
+    <string name="AgregarMesa">Agregar una mesa</string>
+    <string name="EliminarEmpleado">Eliminar un empleado</string>
+    <string name="Apellido">Apellido</string>
+    <string name="ModificarEmpleado">Modificar un empleado</string>
+    <string name="EliminarMesa">Eliminar una mesa</string>
+    <string name="Empleados">Empleados</string>
+    <string name="Local">Local</string>
+    <string name="Horario">Horario</string>
+    <string name="Introducir">Introducir</string>
+    <string name="Horarios">Horarios</string>
+    <string name="DatosEmpleado">Datos del empleado</string>
+    <string name="AgregarHorario">Agregar nuevo horario</string>
+    <string name="EliminarHorario">Eliminar Horario</string>
+    <string name="Mesa">Mesa</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="HoraEntrada">Hora de entrada</string>
+    <string name="MinutoEntrada">Minuto de Entrada</string>
+    <string name="HoraSalida">Hora de salida</string>
+    <string name="MinutoSalida">Minuto de salida</string>
+    <string name="Lunes">L</string>
+    <string name="Martes">M</string>
+    <string name="Miercoles">X</string>
+    <string name="Jueves">J</string>
+    <string name="Viernes">V</string>
+    <string name="Sabado">S</string>
+    <string name="Domingo">D</string>
+    <string name="L">Lunes</string>
+    <string name="M">Martes</string>
+    <string name="X">Miercones</string>
+    <string name="J">Jueves</string>
+    <string name="V">Viernes</string>
+    <string name="S">Sábado</string>
+    <string name="D">Domingo</string>
+    <string name="NMesa">Nº de mesa</string>
+    <string name="AddMesa">Añadir una mesa</string>
+    <string name="DeleteMesa">Borrar la última mesa</string>
+    <string name="DatosHorario">Datos horario</string>
+    <string name="SeleccioneMesa">Seleccione la mesa</string>
+    <string name="preparar">Preparar</string>
+    <string name="estado">Estado</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="listo">Listo</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="todos">Todos</string>
+    <string name="Preparacion">En preparación</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="Filtro">Filtro</string>
+    <string name="entregado">Entregado</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="fecha">Fecha</string>
+    <string name="tlf1">Tlf1</string>
+    <string name="tlf2">Tlf2</string>
+    <string name="Tlf3">Tlf3</string>
+    <string name="registro">Registros</string>
+    <string name="FiltroTelelfono">Telefono</string>
+    <string name="NP">Nº P</string>
+    <string name="VerMismas">Ver registros de la misma fecha</string>
+    <string name="Nota">Nota</string>
+    <string name="InicioSesion">Inicio de Sesion</string>
+    <string-array name="NumeroPersonas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="Estado">
+        <item>Todos</item>
+        <item>En preparación</item>
+        <item>Listo</item>
+        <item>Pendiente</item>
+        <item>Entregado</item>
+    </string-array>
+</resources>
